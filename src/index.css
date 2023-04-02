@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .btn {
+    @apply font-primary rounded text-base;
+  }
+  .btn-sm {
+    @apply h-[24px] px-[25px];
+  }
+  .btn-md {
+    @apply h-[20px] px-[16px];
+  }
+  .btn-lg {
+    @apply h-[48px] rounded-md px-[40px];
+  }
+  .form-control {
+    @apply h-[58px] border border-stroke-2 rounded pl-6 placeholder:text-paragraph text-paragraph outline-none;
+  }
+}
